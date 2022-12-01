@@ -2,6 +2,8 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 
+let userSelectedDates = null;
+
 const refs = {
   startBtn: document.querySelector('button[data-start]'),
   daysEl: document.querySelector('span[data-days]'),
